@@ -1,0 +1,13 @@
+{
+    "Doctr": "This IS a - lot of - 12 point text to test the ocr code and see if it works on all types of file format. The quick prown dog jumped over the lazy fox. The quick brown dog jumped over the lazy fox. The quick prown dog jumped over the lazy fox. The quick brown dogjumped over the lazy fox.",
+    "EasyOCR": "This is a lot of 12 point text to test the ocr code and see if it works on all types of file format: The quick brown dog jumped over the lazy fox The quick brown dog jumped over the lazy fox. The quick brown dog jumped over the lazy fox. The quick brown dog jumped over the lazy fox.",
+    "PaddleOCR": "This is a Iot of 12 point text to test the ocr code and see if it works on all types of file format.. The quick brown dog jumped over the lazy fox. The quick brown dog jumped. over the lazy fox. The quick brown dog jumped over the lazy fox. The quick brown dog jumped over the lazy fox.",
+    "Tesseract": "This is a lot of 12 point text to test the ocr code and see if it works on all types of file format.  The quick brown dog jumped over the lazy fox. The quick brown dog jumped over the lazy fox. The quick brown dog jumped over the lazy fox. The quick brown dog jumped over the lazy fox.",
+    "Accuracy": {
+        "Doctr": 0.3106457242582897,
+        "EasyOCR": 0.34797891036906853,
+        "PaddleOCR": 0.3531468531468531,
+        "Tesseract": 0.3502626970227671
+    },
+    "CorrectText": "This is a lot of 12 point text to test the ocr code and see if it works on all types of file format..  The quick brown dog jumped over the lazy fox. The quick brown dog jumped over the lazy fox. The quick brown dog jumped over the lazy fox. The quick brown dog jumped over the lazy fox."
+}

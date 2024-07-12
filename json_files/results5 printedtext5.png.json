@@ -1,0 +1,13 @@
+{
+    "Doctr": "This is the first line of this text example. This IS the secona line of the same text.",
+    "EasyOCR": "This is the first line of this text example: This is the second line of the same text.",
+    "PaddleOCR": "This is the first line of this text example. This is the second line of the same text.",
+    "Tesseract": "This is the first line of this text example.  This is the second line of the same text.",
+    "Accuracy": {
+        "Doctr": 0.9651162790697675,
+        "EasyOCR": 0.9883720930232558,
+        "PaddleOCR": 1.0,
+        "Tesseract": 0.9942196531791907
+    },
+    "CorrectText": "This is the first line of this text example. This is the second line of the same text."
+}

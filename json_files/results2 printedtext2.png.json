@@ -1,0 +1,13 @@
+{
+    "Doctr": "It was the best of times, it was the worst of times,it was the age of wisdom, it was the age of foolishness..",
+    "EasyOCR": "It was the best of times, it was the worst of times, it was the age of wisdom; it was the age of foolishness_",
+    "PaddleOCR": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness...",
+    "Tesseract": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness...",
+    "Accuracy": {
+        "Doctr": 0.990909090909091,
+        "EasyOCR": 0.9727272727272728,
+        "PaddleOCR": 1.0,
+        "Tesseract": 1.0
+    },
+    "CorrectText": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness..."
+}

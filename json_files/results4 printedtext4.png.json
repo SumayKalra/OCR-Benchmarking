@@ -1,0 +1,13 @@
+{
+    "Doctr": "- When an image is seen for only 13 milliseconds petore the next mage ppeurs, a part of the brain continues to process the mages longer than the amount of lime i was scon / 0908 - - - -",
+    "EasyOCR": "When Imoge Secn 13 millisaconds belore Ihe next Wncgo dppeoiat port of Ihe Erolccontinues pioce3s uule Wncges Thanalcdmonat Inds seom [@E longet",
+    "PaddleOCR": "When an image is seen for only. image appears, a part of the brain continues to process the images longer than the amount of time it was seen..",
+    "Tesseract": "\u2018When an image is seen for only  before the next Image appears part ofthe bran continues to process the Images longer than the amount \u2018of time it wos seen,",
+    "Accuracy": {
+        "Doctr": 0.9050279329608939,
+        "EasyOCR": 0.5488958990536278,
+        "PaddleOCR": 0.8924050632911392,
+        "Tesseract": 0.9085365853658537
+    },
+    "CorrectText": "When an image is seen for only 13 milliseconds before the next image appears, a part of the brain continues to process the images longer than the amount of time it was seen."
+}
