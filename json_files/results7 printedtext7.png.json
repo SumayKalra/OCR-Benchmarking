@@ -1,0 +1,13 @@
+{
+    "Doctr": "Lorem psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod cempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Jllamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "EasyOCR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit; sed do eiusmod tempor incididunt ut  labore et   dolore magna aliqua. Ut enim ad minim veniam; quis nostrud exercitation ullamco laboris nis ut aliquip ex ea commodo consequat:",
+    "PaddleOCR": "Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor. incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+    "Tesseract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Accuracy": {
+        "Doctr": 0.9803063457330415,
+        "EasyOCR": 0.8173913043478261,
+        "PaddleOCR": 0.1703056768558952,
+        "Tesseract": 0.9912663755458515
+    },
+    "CorrectText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+}
