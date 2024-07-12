@@ -1,7 +1,7 @@
 from paddleocr import PaddleOCR
 
 ocr = PaddleOCR(use_angle_cls=True, lang='en')
-img_path = 'printedtext.png'
+img_path = 'images/printedtext.png'
 result = ocr.ocr(img_path, cls=True)
 for idx in range(len(result)):
     res = result[idx]
