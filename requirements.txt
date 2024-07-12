@@ -1,5 +1,17 @@
-numpy==1.21.4
+# PaddleOCR dependencies
+paddlepaddle==2.5.2
+paddleocr==2.5.0
+
+# Tesseract dependencies
+pytesseract==0.3.10
+Pillow==9.2.0
+
+# Doctr dependencies
+doctr[tensorflow]==0.4.1
+tensorflow==2.9.1
+
+# EasyOCR dependencies
+easyocr==1.4.1
 torch==1.10.0
-easyocr
-opencv-python
-matplotlib
+torchvision==0.11.0
+opencv-python-headless==4.5.5.64
