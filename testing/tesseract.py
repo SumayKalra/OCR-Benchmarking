@@ -3,8 +3,6 @@ import pytesseract
 
 image_path = "/Users/sumay.kalra/ocr_benchmarking/images/printedtext.png"  
 image = Image.open(image_path)
-processed_image_path = "/Users/sumay.kalra/ocr_benchmarking/images/printedtext.png"
-image.save(processed_image_path)
 text = pytesseract.image_to_string(image, lang='eng')
 print(f"Extracted Text: {text}")
 

@@ -7,8 +7,7 @@ try:
 except Exception as e:
     print("Model not loading:", e)
 
-doc = DocumentFile.from_images("printedtext.png")  
-
+doc = DocumentFile.from_images("images/printedtext.png")  
 
 try:
     result = model(doc)
