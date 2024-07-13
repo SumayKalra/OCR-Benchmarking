@@ -60,7 +60,9 @@ correct_strings = [
     "When an image is seen for only 13 milliseconds before the next image appears, a part of the brain continues to process the images longer than the amount of time it was seen.",
     "This is the first line of this text example. This is the second line of the same text.",
     "orP hseMtxeT a si sihT tresni esaelP .tcejbo .ereh txet nwo ruoy",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+
     ]
 
 image_folder = "images"
@@ -83,7 +85,7 @@ for num, (image_file, correct_text) in enumerate(zip(image_files, correct_string
 
     results['Accuracy'] = accuracy_scores
     results['CorrectText'] = correct_text
-    print(correct_text)
+    print(correct_text, accuracy_scores)
     results_json = json.dumps(results, indent=4)
 
     output_dir = "json_files"
@@ -93,4 +95,6 @@ for num, (image_file, correct_text) in enumerate(zip(image_files, correct_string
 
     with open(output_file_path, 'w') as output_file:
         output_file.write(results_json)
+
+
 
